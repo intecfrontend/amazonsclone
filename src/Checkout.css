@@ -1,0 +1,38 @@
+.checkout__ad {
+  width: 100%;
+}
+
+.checkout__title {
+  margin-left: 20px;
+}
+
+.checkoutProduct__info {
+  margin-top: 30px;
+}
+
+.checkout {
+  display: flex;
+  padding: 20px;
+  background: white;
+  flex-direction: row;
+  height: max-content;
+}
+
+.checkout__left {
+  width: 70vw;
+}
+
+.Subtotal__container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background: #f3f3f3;
+  border: 1px solid #dddddd;
+  border-radius: 3px;
+  height: 100px;
+  width: 30vw;
+  padding: 1vw;
+}
+.Subtotal__gift > input {
+  margin-right: 5px;
+}

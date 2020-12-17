@@ -1,0 +1,23 @@
+.home {
+  margin-left: 3vw;
+  margin-right: 1vw;
+}
+/* very good example of flexbox! */
+.home__row {
+  display: grid;
+  grid-gap: 1vw;
+  margin: 1vw 1.5vw 1vw 0vw;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: auto;
+
+  z-index: 1;
+}
+.home__heroimg {
+  width: 100vw;
+  height: 40vw;
+  z-index: -100;
+  mask-image: linear-gradient(to bottom, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0));
+  margin-bottom: -15px;
+  margin-left: 0vw;
+  margin-right: 0vw;
+}
